@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44e142a4-c5ec-4abd-9284-a09cd79dffee" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/excomm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/creative.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,58 +12,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3323">
-              <caret line="324" column="4" lean-forward="true" selection-start-line="324" selection-start-column="4" selection-end-line="324" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="round-about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/round-about.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="excomm.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/excomm.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-              <folding>
-                <element signature="e#5153#5159#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creative.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/creative.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1194">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creative.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/creative.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,7 +22,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>img</find>
       <find>main</find>
       <find>mainNav</find>
       <find>#mainNav.nav</find>
@@ -92,9 +41,17 @@
       <find>primary</find>
       <find>rush</find>
       <find>text-primary</find>
-      <find>greek</find>
       <find>nav</find>
       <find>navbar</find>
+      <find>excomm</find>
+      <find>text-faded</find>
+      <find>letter</find>
+      <find>aboutText</find>
+      <find>main-text</find>
+      <find>rush-header</find>
+      <find>core-va</find>
+      <find>greek</find>
+      <find>Rush Event</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,11 +60,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/creative.js" />
-        <option value="$PROJECT_DIR$/css/creative.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/round-about.css" />
         <option value="$PROJECT_DIR$/excomm.html" />
+        <option value="$PROJECT_DIR$/js/creative.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/creative.css" />
       </list>
     </option>
   </component>
@@ -117,10 +74,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="246" />
-    <option name="y" value="36" />
-    <option name="width" value="1400" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
     <option name="height" value="962" />
   </component>
   <component name="ProjectView">
@@ -128,7 +90,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,18 +135,10 @@
               <item name="APO" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="APO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="APO" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="creative.js" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,46 +221,48 @@
       <workItem from="1524008028600" duration="18661000" />
       <workItem from="1525475738675" duration="16000" />
       <workItem from="1525929126669" duration="13558000" />
-      <workItem from="1526684392546" duration="454000" />
+      <workItem from="1526684392546" duration="887000" />
+      <workItem from="1526753432115" duration="2725000" />
+      <workItem from="1526757699096" duration="2059000" />
+      <workItem from="1527442847782" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42631000" />
+    <option name="totallyTimeSpent" value="48551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="246" y="36" width="1400" height="962" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1680" height="962" extended-state="6" />
     <layout>
+      <window_info id="Designer" order="1" />
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.31445086" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Remote Host" order="1" />
-      <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26804122" />
-      <window_info anchor="right" id="Database" order="4" />
       <window_info id="Learn" order="0" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="right" id="Ant Build" order="8" visible="true" weight="0.2496318" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Remote Host" order="1" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22954823" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.20695971" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.31560692" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,114 +276,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/round-about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excomm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="e#5153#5159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/creative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="407" column="16" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="129" column="52" selection-start-line="129" selection-start-column="52" selection-end-line="129" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/creative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6105">
-          <caret line="407" column="16" selection-start-line="407" selection-start-column="16" selection-end-line="407" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3323">
-          <caret line="324" column="4" lean-forward="true" selection-start-line="324" selection-start-column="4" selection-end-line="324" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/round-about.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/creative.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/creative.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1194">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/excomm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-          <folding>
-            <element signature="e#5153#5159#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="735">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
