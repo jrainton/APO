@@ -8,6 +8,11 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
+.top-padding {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
 hr {
   max-width: 50px;
   border-width: 3px;
@@ -366,6 +371,30 @@ header.masthead p {
 .main-text {
   -webkit-filter: brightness(100%) !important;
 }
+
+.main-text-excomm {
+  font-size: 40px;
+}
+
+.margin-right {
+  margin-right: -10%;
+  margin-left: 10%;
+}
+
+.margin-left {
+  margin-right: 10%;
+  margin-left: -10%;
+}
+
+.excomm-text {
+  font-size: 40px;
+}
+
+.people-text {
+  width: 90%;
+  margin: 0px;!important;
+}
+
 
 .portfolio-box {
   position: relative;
