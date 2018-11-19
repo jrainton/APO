@@ -1,0 +1,57 @@
+<div ng-cloak="" layout-gt-sm="row" layout="column" class="listdemoBasicUsage">
+
+  <div flex-gt-sm="100" flex="">
+    <section layout="row" layout-align="end center" layout-wrap>
+      <div layout="row" layout-align="start center" flex>
+        <md-select ng-init="$ctrl.orderProp = '-activity.actor.id'" ng-model="$ctrl.orderProp">
+          <md-option value="-activity.actor.id">Newest</md-option>
+          <md-option value="activity.actor.id">Oldest</md-option>
+        </md-select>
+      </div>
+      <md-button class="md-caption" ng-click="changeTemp()">{{ weather.list[0].activity.tempUnit }}</md-button>
+    </section>
+
+    <md-toolbar layout="row" class="md-hue-3">
+      <div class="md-toolbar-tools">
+        <span>Weather in {{ weather.list[0].activity.object.contentImage.location.displayName }}</span>
+      </div>
+    </md-toolbar>
+
+    <md-content>
+      <md-list flex="">
+        <md-list-item class="md-2-line" ng-repeat="weatherReport in weather.list | orderBy:$ctrl.orderProp" ng-click="showDetails = ! showDetails">
+          <div class="md-list-item-text layout-padding" layout="column">
+            <h3>{{ weatherReport.activity.title }}</h3>
+            <div class="row mainDetail" style="pointer-events:none;">
+              <div class="col-md-7">
+                <p>Temp: {{ weatherReport.activity.tempConversion | number:2 }} {{ weatherReport.activity.tempUnit }}</p>
+              </div>
+              <div class="col-md-2">
+                <p>Min: {{ weatherReport.activity.tempConversionMin | number:2 }} {{ weatherReport.activity.tempUnit }}</p>
+              </div>
+              <div class="col-md-2">
+                <p>Max: {{ weatherReport.activity.tempConversionMax | number:2 }} {{ weatherReport.activity.tempUnit }}</p>
+              </div>
+            </div>
+            <div class="extraDetail padding" style="pointer-events:none; padding-top: 20px; padding-bottom: 10px;" ng-show="showDetails">
+                <p>Pressure: {{ weatherReport.activity.pressure | number:2 }}</p>
+                <p>Humidity: {{ weatherReport.activity.humidity | number:2 }}</p>
+                <p>{{ weatherReport.activity.weather }} - {{ weatherReport.activity.weather_desc }}</p>
+                <p>Wind Speed: {{ weatherReport.activity.wind_speed | number:2 }}</p>
+            </div>
+          </div>
+          <md-divider></md-divider>
+        </md-list-item>
+        <md-divider></md-divider>
+      </md-list>
+    </md-content>
+  </div>
+</div>
+
+
+
+
+<!--
+Copyright 2018 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be foundin the LICENSE file at http://material.angularjs.org/HEAD/license.
+-->
